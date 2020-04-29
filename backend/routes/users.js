@@ -1,5 +1,5 @@
  const router = require('express').Router(); //express router
- let User = require('../models/userm.model'); //mongoose model
+ let User = require('../models/user.model'); //mongoose model
 
  router.route('/').get((req, res) => {
    User.find()
